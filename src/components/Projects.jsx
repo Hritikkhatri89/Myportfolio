@@ -19,7 +19,7 @@ const Projects = () => {
       desc: 'Interactive 3D custom packaging & bespoke gift box studio allowing users to customize box styles, dimensions, color finishes, explore gift sets, and order online.',
       image: customBoxImg,
       tags: ['React', 'Three.js / 3D', 'Tailwind CSS', 'Node.js', 'Express', 'MongoDB'],
-      link: 'https://customboxstudio.netlify.app/',
+      link: 'https://custombox-rose.vercel.app/',
       github: 'https://github.com/Hritikkhatri89'
     },
     {
@@ -87,8 +87,8 @@ const Projects = () => {
                 key={f.id}
                 onClick={() => setActiveFilter(f.id)}
                 className={`px-4 py-2 rounded-xl text-xs font-semibold transition-all ${activeFilter === f.id
-                    ? 'bg-violet-600 text-white shadow-md shadow-violet-600/30'
-                    : 'text-slate-400 hover:text-white hover:bg-white/5'
+                  ? 'bg-violet-600 text-white shadow-md shadow-violet-600/30'
+                  : 'text-slate-400 hover:text-white hover:bg-white/5'
                   }`}
               >
                 {f.label}
